@@ -1,0 +1,7 @@
+//save the number to an integer
+//add one so you will have range from 1-6
+       int number = myRandomNumber.nextInt(6)+1;
+//string to hold the text
+        String myRandomValue="Number generated: " + number;
+//show the string
+        Toast.makeText(getApplicationContext(), myRandomValue, Toast.LENGTH_SHORT).show();
